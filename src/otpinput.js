@@ -1,8 +1,10 @@
 import { useState, useRef,useEffect } from "react";
+import mygif from './icons8-tick.gif'
 
 export const Input0tpFields = ({length=4,onOtpSubmit} )=>{
     const [otpBoxes, setOptBoxes] = useState(Array(length).fill(''));
     const inputReferenece = useRef(Array(length).fill(''));
+    const [show ,setshow] = useState(false)
     useEffect(()=>{
         inputReferenece.current[0].focus()
     }
@@ -23,11 +25,16 @@ export const Input0tpFields = ({length=4,onOtpSubmit} )=>{
         if(value && index< length-1 && inputReferenece.current[index+1]){
             inputReferenece.current[index+1].focus();
         }
-       
+        const cancellable = function (t){
+           setshow(true)
+           setTimeout(() => setshow(false), t);
+          
+        }
         const joinedOtp = newOptBoxes.join('')
-        if(joinedOtp.length === length){
-
-        } 
+        if(joinedOtp.length === length && joinedOtp === '1234'){
+              cancellable(2000)
+              onOtpSubmit()
+        }
       }
 
       const onKeyHandle = (event,index) => {
@@ -42,6 +49,7 @@ export const Input0tpFields = ({length=4,onOtpSubmit} )=>{
         
       
       <div>
+      <div>OTP:'1234'</div>  
         {otpBoxes.map((otpBox, index) => (
           <input
           key={index}
@@ -54,6 +62,11 @@ export const Input0tpFields = ({length=4,onOtpSubmit} )=>{
           ref={(ele) => (inputReferenece.current[index] = ele)}
           />
         ))}
+
+        {
+            (show === true)?<div><img src={mygif} alt="Animated GIF" /></div> :<></>
+        }
+
       </div>
      
       </>

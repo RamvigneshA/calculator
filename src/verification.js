@@ -5,6 +5,8 @@ import { Input0tpFields } from "./otpinput";
 export const Verification = () => {
   const [phoneNumber, setphoneNumber] = useState('');
   const [show,setShow]=useState(false);
+  console.log('ONE');
+
  
   const handleShow =( )=>{
     setShow(!show);
@@ -26,7 +28,7 @@ export const Verification = () => {
     
   };
 
-  const onotpSubmit = () => {
+  const onOtpSubmit = () => {
     console.log('success')
   }
 
@@ -49,7 +51,7 @@ export const Verification = () => {
       :
       <>
       <p>enter the OTP sent to this {phoneNumber.replace(/^\d{6}/, '******')}</p>
-      <Input0tpFields  length={4} onOtpSubmit = {onotpSubmit} />
+      <Input0tpFields  length={4} onOtpSubmit = {onOtpSubmit} />
       </>
 
       }

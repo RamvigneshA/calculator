@@ -1,0 +1,21 @@
+
+input[type=text] {
+    width: 40px;
+    font-size: 30px;
+    border-radius: 4px;
+    height: 40px;
+    text-align: center;
+    margin-right: 2px;
+}
+input:focus{
+    background-color: aquamarine;
+}
+#number{
+   width: 300px;
+   font-size: 20px;
+}
+button{
+    height:40px;
+   font-size: 20px;
+
+}

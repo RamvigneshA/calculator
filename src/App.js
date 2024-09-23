@@ -1,10 +1,9 @@
 import './App.css';
-import { OneTimePassword } from './OTP';
-
+import { Pagination } from './paginationMain';
 function App() {
   return (
    <>
-    <OneTimePassword />
+  <Pagination />
    </>
   );
 }

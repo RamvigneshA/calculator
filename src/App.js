@@ -1,5 +1,5 @@
-import './App.css';
 import { Pagination } from './paginationMain';
+import './app.css';
 function App() {
   return (
    <>

@@ -81,7 +81,8 @@ function scrolll(){
         products.length > 0 && <div  className="paginate-number">
           <span onClick={()=> handleMinus()}>-</span>{
             [...Array(products.length/6)].map((_,index)=>{
-              return <span key={index} className={pages === index+1 ? "selected":""} onClick={(event)=> goTo((index+1))}>{index+1}</span>
+              return <span key={index} className={pages === index+1 ? 
+                "selected":""} onClick={(event)=> goTo((index+1))}>{index+1}</span>
             })
           }<span  onClick={()=> handlePlus()}>+</span>
         </div>

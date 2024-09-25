@@ -1,0 +1,53 @@
+ [
+      {
+        "question": "What is the capital of India?",
+        "options": ["Delhi", "Mumbai", "Kolkata", "Chennai"],
+        "answer": "Delhi"
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": "Mars"
+      },
+      {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Leonardo da Vinci", "Michelangelo", "Pablo Picasso", "Vincent van Gogh"],
+        "answer": "Leonardo da Vinci"
+      },
+      {
+        "question": "What is the largest ocean on Earth?",
+        "options": [ "Atlantic Ocean","Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+        "answer": "Pacific Ocean"
+      },
+      {
+        "question": "Which country won the 2022 FIFA World Cup?",
+        "options": ["Argentina", "France", "Brazil", "Germany"],
+        "answer": "Argentina"
+      },
+      {
+        "question": "What is the chemical symbol for gold?",
+        "options": [ "Ag", "Cu","Au", "Fe"],
+        "answer": "Au"
+      },
+      {
+        "question": "Who wrote the famous play Romeo and Juliet?",
+        "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "question": "Which animal is the fastest land animal on Earth?",
+        "options": [ "Lion", "Tiger", "Elephant","Cheetah"],
+        "answer": "Cheetah"
+      },
+      {
+        "question": "What is the largest country in the world by land area?",
+        "options": ["Russia", "China", "Canada", "United States"],
+        "answer": "Russia"
+      },
+      {
+        "question": "Who was the first president of the United States?",
+        "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John F. Kennedy"],
+        "answer": "George Washington"
+      }
+    ]
+  

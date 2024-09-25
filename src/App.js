@@ -1,10 +1,12 @@
-import { Pagination } from './paginationMain';
+import { QuizMain } from './quizMain';
+import { Pagination  } from './paginationMain';
+import { OneTimePassword } from './OTPmain';
 
 import './app.css';
 function App() {
   return (
    <>
-  <Pagination />
+   <QuizMain />
    </>
   );
 }

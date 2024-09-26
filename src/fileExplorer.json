@@ -1,0 +1,136 @@
+{
+  "filesystem": {
+    "root": {
+      "name": "Root",
+      "type": "directory",
+      "children": [
+        {
+          "name": "Documents",
+          "type": "directory",
+          "children": [
+            {
+              "name": "Reports",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "annual_report.pdf",
+                  "type": "file",
+                  "size": 123456,
+                  "content": "base64 encoded content"
+                },
+                {
+                  "name": "project_report.docx",
+                  "type": "file",
+                  "size": 234567,
+                  "content": "base64 encoded content"
+                }
+              ]
+            },
+            {
+              "name": "Presentations",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "product_pitch.pptx",
+                  "type": "file",
+                  "size": 345678,
+                  "content": "base64 encoded content"
+                },
+                {
+                  "name": "team_update.pdf",
+                  "type": "file",
+                  "size": 456789,
+                  "content": "base64 encoded content"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pictures",
+          "type": "directory",
+          "children": [
+            {
+              "name": "Vacation",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "beach.jpg",
+                  "type": "file",
+                  "size": 567890,
+                  "content": "base64 encoded content"
+                },
+                {
+                  "name": "mountains.png",
+                  "type": "file",
+                  "size": 678901,
+                  "content": "base64 encoded content"
+                }
+              ]
+            },
+            {
+              "name": "Family",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "birthday.jpg",
+                  "type": "file",
+                  "size": 789012,
+                  "content": "base64 encoded content"
+                },
+                {
+                  "name": "wedding.png",
+                  "type": "file",
+                  "size": 890123,
+                  "content": "base64 encoded content"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Music",
+          "type": "directory",
+          "children": [
+            {
+              "name": "Pop",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "song1.mp3",
+                  "type": "file",
+                  "size": 901234,
+                  "content": "base64 encoded content"
+                },
+                {
+                  "name": "song2.mp3",
+                  "type": "file",
+                  "size": 123456,
+                  "content": "base64 encoded content"
+                }
+              ]
+            },
+            {
+              "name": "Rock",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "song3.mp3",
+                  "type": "file",
+                  "size": 234567,
+                  "content": "base64 encoded content"
+                },
+                {
+                  "name": "song4.mp3",
+                  "type": "file",
+                  "size": 345678,
+                  "content": "base64 encoded content"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -57,8 +57,8 @@ export const QuizCard = () => {
           <table>
             <tr>
               <th>Question</th>
-              <th>Your answer</th>
-              <th>Correct answeer</th>
+              <th>Your answers</th>
+              <th>Correct answers</th>
             </tr>
             {userAnswer.current.map((ans, index) => {
               const value = questions[index].answer;

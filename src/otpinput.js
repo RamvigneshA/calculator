@@ -1,7 +1,7 @@
 import { useState, useRef,useEffect } from "react";
 import mygif from './icons8-tick.gif'
-
 export const Input0tpFields = ({length=4,onOtpSubmit} )=>{
+
     const [otpBoxes, setOptBoxes] = useState(Array(length).fill(''));
     const inputReferenece = useRef(Array(length).fill(''));
     const [show ,setshow] = useState(false)

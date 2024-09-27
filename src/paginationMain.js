@@ -77,6 +77,7 @@ function scrolll(){
           ))}
         </div>
       )}
+      
       {
         products.length > 0 && <div  className="paginate-number">
           <span onClick={()=> handleMinus()}>-</span>{

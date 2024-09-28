@@ -13,10 +13,9 @@ export function Progress({ value,pvalue = 10,reff }) {
   
   return (
     <>
-      
       <div className="progress">
         <div style={{'width':`${displauNum}%`}}className="bar"></div>
-        <span style={{'color':(displauNum<49)?'black':"purple"}} className="value">{displauNum}%</span>
+        <span style={{'color':(displauNum<49)?'black':"purplex"}} className="value">{displauNum}%</span>
       </div>
     </>
   );
